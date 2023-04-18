@@ -1,0 +1,14 @@
+ /* body {
+     background-color: rgba(173, 64, 173, 0.921);
+ } */
+ table,
+ td,
+ th {
+     border: 1px solid;
+ }
+
+ table {
+     width: 50%;
+     border-collapse: collapse;
+     margin-top: 2em;
+ }
