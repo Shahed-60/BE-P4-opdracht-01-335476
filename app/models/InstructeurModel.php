@@ -17,8 +17,8 @@ class InstructeurModel
         $this->db->query($sql);
 
 
-        $result =  $this->db->resultSet();
+        return $this->db->resultSet();
 
-        var_dump($result);
+        // var_dump($result);
     }
 }
