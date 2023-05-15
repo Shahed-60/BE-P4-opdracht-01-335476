@@ -21,4 +21,15 @@ class InstructeurModel
 
         // var_dump($result);
     }
+    public function getGegevensInstructeur()
+    {
+        $sql = "SELECT ty.typeVoertuig, vo.Type, vo.Kenteken, vo.Bouwjaar, vo.Brandstof, ty.RijbewijsCategorie
+                FROM voertuig vo
+                INNER JOIN typeVoertuig ty
+                ON vo.Id = ty.Id";
+
+        $this->db->query($sql);
+
+        return $this->db->resultSet();
+    }
 }
