@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= URLROOT; ?>/css/style.css">
 </head>
-<title>Door Instructeur gebruikte voertuigen</title>
+<title> Door Instructeur gebruikte voertuigen</title>
 </head>
 
 <body>
