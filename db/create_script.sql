@@ -172,21 +172,19 @@ INSERT INTO Voertuig
     ,DatumAangemaakt
     ,DatumGewijzigd
 )
-VALUES
-     ('AU-67-IO', 'Golf',       '2017-06-12', 'Diesel',     1, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('AU-67-IO', 'Golf',       '2017-06-12', 'Diesel',     1, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('TR-24-OP', 'DAF' ,       '2019-05-23', 'Diesel',     2, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('TH-78-KL', 'Mercedes',   '2023-01-01', 'Benzine',    1, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('90-KL-TR', 'Fiat 500',   '2021-09-12', 'Benzine',    1, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('34-TK-LP', 'Scania',     '2015-03-13', 'Diesel',     2, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('YY-OP-78', 'BMW M5',     '2022-05-13', 'Diesel',     1, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('UU-HH-JK', 'M.A.N',      '2017-12-03', 'Diesel',     2, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('ST-FZ-28', 'Citroën',    '2018-01-20', 'Elektrisch', 1, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('123-FR-T', 'Piaggio ZIP','2021-02-01', 'Benzine',    4, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('DRS-52-P', 'Vespa',      '2022-03-21', 'Benzine',    4, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('STP-12-U', 'Kymco',      '2022-07-02', 'Benzine',    4, 1, NULL, SYSDATE(6), SYSDATE(6))
-    ,('45-SD-23', 'Renault',    '2023-01-01', 'Diesel',     3, 1, NULL, SYSDATE(6), SYSDATE(6));
-
+VALUES 
+('AU-67-IO', 'Golf', '2017-06-12', 'Diesel', 1, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('TR-24-OP', 'DAF', '2019-05-23', 'Diesel', 2 , 1, NULL, SYSDATE(6), SYSDATE(6)),
+('TH-78-KL', 'Mercedes', '2023-01-01', 'Benzine', 1, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('90-KL-TR', 'Fiat 500', '2021-09-12', 'Benzine', 1, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('34-TK-LP', 'Scania', '2015-03-13', 'Diesel', 2, 1,NULL, SYSDATE(6), SYSDATE(6)),
+('YY-OP-78', 'BMW M5', '2022-05-13', 'Diesel', 1, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('UU-HH-JK', 'M.A.N', '2017-12-03', 'Diesel', 2, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('ST-FZ-28', 'Citroën', '2018-01-20', 'Elektrisch', 1, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('123-FR-T', 'Piaggio ZIP', '2021-02-01', 'Benzine', 4, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('DRS-52-P', 'Vespa', '2022-03-21', 'Benzine', 4 , 1, NULL, SYSDATE(6), SYSDATE(6)),
+('STP-12-U', 'Kymco', '2022-07-02', 'Benzine', 4, 1, NULL, SYSDATE(6), SYSDATE(6)),
+('45-SD-23', 'Renault', '2023-01-01', 'Diesel', 3, 1,  NULL, SYSDATE(6), SYSDATE(6));
 -- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Step: 8
 -- Goal: Create a new table VoertuigInstructeur

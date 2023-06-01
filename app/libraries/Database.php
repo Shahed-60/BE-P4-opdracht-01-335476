@@ -34,4 +34,10 @@ class Database
         $this->execute();
         return $this->statement->fetchAll(PDO::FETCH_OBJ);
     }
+    // Menneer werk
+    public function single()
+    {
+        $this->execute();
+        return $this->statement->fetch(PDO::FETCH_OBJ);
+    }
 }
